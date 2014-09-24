@@ -19,6 +19,8 @@
 		7141B2C0193DB2A30084F9F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B2A8193DB2A30084F9F1 /* UIKit.framework */; };
 		7141B2C8193DB2A30084F9F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7141B2C6193DB2A30084F9F1 /* InfoPlist.strings */; };
 		7141B2CA193DB2A30084F9F1 /* WhoWantsToKnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141B2C9193DB2A30084F9F1 /* WhoWantsToKnowTests.m */; };
+		C8106DD319D24E5500310C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8106DD219D24E5500310C66 /* ViewController.m */; };
+		C8106DD619D24F1B00310C66 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C8106DD519D24F1B00310C66 /* AppSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		7141B2C5193DB2A30084F9F1 /* WhoWantsToKnowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhoWantsToKnowTests-Info.plist"; sourceTree = "<group>"; };
 		7141B2C7193DB2A30084F9F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7141B2C9193DB2A30084F9F1 /* WhoWantsToKnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhoWantsToKnowTests.m; sourceTree = "<group>"; };
+		C8106DD119D24E5500310C66 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		C8106DD219D24E5500310C66 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C8106DD419D24F1B00310C66 /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		C8106DD519D24F1B00310C66 /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				7141B2B3193DB2A30084F9F1 /* AppDelegate.h */,
 				7141B2B4193DB2A30084F9F1 /* AppDelegate.m */,
+				C8106DD119D24E5500310C66 /* ViewController.h */,
+				C8106DD219D24E5500310C66 /* ViewController.m */,
+				C8106DD419D24F1B00310C66 /* AppSettings.h */,
+				C8106DD519D24F1B00310C66 /* AppSettings.m */,
 				7141B2B6193DB2A30084F9F1 /* Images.xcassets */,
 				7141B2AB193DB2A30084F9F1 /* Supporting Files */,
 			);
@@ -239,7 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8106DD319D24E5500310C66 /* ViewController.m in Sources */,
 				7141B2B5193DB2A30084F9F1 /* AppDelegate.m in Sources */,
+				C8106DD619D24F1B00310C66 /* AppSettings.m in Sources */,
 				7141B2B1193DB2A30084F9F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 				7141B2CF193DB2A30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7141B2D0193DB2A30084F9F1 /* Build configuration list for PBXNativeTarget "WhoWantsToKnowTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				7141B2D2193DB2A30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
